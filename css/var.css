@@ -1,0 +1,21 @@
+
+:root {
+    --white: rgb(254, 247, 245);
+    --light:rgb(232, 217, 203);
+    --darkbrown: rgb(43, 43, 43);
+    --blackbrown: rgb(39, 40, 45);
+
+}
+
+/* 
+css variables should be declared with a css selector that defines scope. for a global scope use either :root or the body selector.
+
+syntax for setting variables  { --variableName: value; }
+
+The variable name must begin with two dashes(--) and is case sensitive!
+
+To appy local variable  the syntax is: 
+                        var(custom-name, value)
+                                value is optional and used if the custome property is invalid
+
+*/

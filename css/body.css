@@ -1,0 +1,38 @@
+
+body {
+    background-color: var(--light);
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+.btn{
+    color:var(--light);
+    border:1px solid var(--light);
+}
+.btn:hover{
+    color:rgb(192, 143, 101);
+}
+
+.btn#submit{
+    color: var(--darkbrown);
+    border:2px solid var(--darkbrown);
+    margin-bottom: 10px;
+}
+button#submit:hover{
+    background-color:rgb(171, 119, 89);
+    color: var(--light);
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-family: 'Girassol', cursive;
+    /* font-family: 'Oswald', sans-serif; */
+}
+h3{
+    font-family: 'Girassol', cursive;
+}

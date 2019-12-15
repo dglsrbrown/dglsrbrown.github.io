@@ -1,0 +1,59 @@
+/* #mtn {
+    background: url('../assets/centerMountain.jpg');
+    background-size: cover; 
+    If the background-size property is set to "contain", the background image will scale, and try to fit the content area. However, the image will keep its aspect ratio (the proportional relationship between the image's width and height)
+    
+    
+  
+
+}
+*/
+#header{
+  color: var(--light);
+  /* color:rgb(172, 176, 176); */
+  text-shadow:8px 8px 4px black;
+  background: url("../assets/woodHeader.jpg");
+  height:50vh;
+  background-size: cover;
+  /* background-image: radial-gradient(rgb(196, 193, 186)5%, rgb(49, 58, 73)15%, rgb(45, 45, 45) 60%); */
+}
+
+#col1{
+
+  display:flex;
+  justify-content: center;
+}
+
+#myname {
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#r{
+  display:inline;
+  line-height:200%;
+}
+#intro {
+  font-size: 10vh;
+}
+@media screen and (max-width: 992px){
+  #intro{
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 768px){
+  #intro{
+    font-size: 2em;
+  }
+  #header{
+    height: 33vh;
+  }
+}
+
+/* default font sizing
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h4              { margin: 1.12em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 } */

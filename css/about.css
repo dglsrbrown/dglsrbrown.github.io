@@ -1,0 +1,15 @@
+.about{
+    color: var(--mydark);
+}
+.test{
+    color: var(--mydark);
+}
+#school:link{
+    color:rgb(192, 143, 101);
+}
+#school:visited{
+    color:rgb(192, 143, 101);
+}
+#school:hover{
+    color:rgb(171, 119, 89);
+}
