@@ -6,12 +6,15 @@
     text-shadow: 3px 3px 2px var(--blackbrown);
     box-shadow: 0 4px 8px 1px black;
 }
+#projects{
+    margin-top: 20px;
+}
 .cardbottom {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .card{
-    border:4px solid rgb(18, 10, 6);
+    border:6px solid rgb(18, 10, 6);
     border-radius: 12px;
     box-shadow: 4px 8px 4px 1px black;
 }

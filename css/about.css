@@ -1,6 +1,9 @@
 .about{
     color: var(--mydark);
 }
+#about{
+    margin-top: 20px;
+}
 .test{
     color: var(--mydark);
 }
